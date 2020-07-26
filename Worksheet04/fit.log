@@ -1,0 +1,118 @@
+
+
+*******************************************************************************
+Fri Sep  7 16:47:19 2018
+
+
+FIT:    data read from 'data-Q3.dat' u 3: ($4/($1+$2))
+        format = t:z
+        t range restricted to [-8.00000 : 8.00000]
+        #datapoints = 64
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+
+
+*******************************************************************************
+Fri Sep  7 16:47:31 2018
+
+
+FIT:    data read from 'data-Q3.dat' u 3: ($4/($1+$2))
+        format = t:z
+        t range restricted to [-8.00000 : 8.00000]
+        #datapoints = 64
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Sep  7 16:48:27 2018
+
+
+FIT:    data read from 'data-Q3.dat' u 3: ($4/($1+$2))
+        format = t:z
+        t range restricted to [-8.00000 : 8.00000]
+        #datapoints = 64
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Sep  7 16:50:39 2018
+
+
+FIT:    data read from 'data-Q3.dat' u 3: ($4/($1+$2))
+        format = t:z
+        t range restricted to [-8.00000 : 8.00000]
+        #datapoints = 64
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Sep  7 16:51:25 2018
+
+
+FIT:    data read from 'data-Q3.dat' u 3: ($4/($1+$2))
+        format = x:z
+        #datapoints = 64
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+*******************************************************************************
+Fri Sep  7 16:51:32 2018
+
+
+FIT:    data read from 'data-Q3.dat' u 3: ($4/($1+$2))
+        format = x:z
+        #datapoints = 64
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 606.508           delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 2.07052
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+
+After 4 iterations the fit converged.
+final sum of squares of residuals : 6.80312
+rel. change during last iteration : -5.71829e-14
+
+degrees of freedom    (FIT_NDF)                        : 62
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.331252
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.109728
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 3.00233          +/- 0.03636      (1.211%)
+b               = -1.97451         +/- 0.1001       (5.068%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      
+a               1.000 
+b              -0.910  1.000 

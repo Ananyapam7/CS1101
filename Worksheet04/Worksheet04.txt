@@ -1,0 +1,80 @@
+1)
+
+gnuplot> y(x)=3.4*sin(2*x+pi)
+gnuplot> plot 'data-Q1.dat' u 1:2, y(x)
+gnuplot> set zeroaxis
+
+
+2)
+
+a)
+gnuplot> set key below
+gnuplot> plot 'data-Q2.dat' u 1:2 title "x vs t"
+gnuplot> replot 'data-Q2.dat' u 1:3 title "y vs t"
+gnuplot> replot 'data-Q2.dat' u 1:4 title "z vs t"
+
+b)
+gnuplot> plot 'data-Q2.dat' u 1:($2+$3+$4)
+gnuplot> unset key
+gnuplot> replot
+
+c)
+
+gnuplot> plot 'data-Q2.dat' u 1:(($2-$3)/$4)
+gnuplot> set xlabel "t"
+gnuplot> set ylabel "(y-x)/z"
+gnuplot> plot 'data-Q2.dat' u 1:(($3-$2)/$4)
+
+d)
+gnuplot> plot 'data-Q2.dat' u 2:($2**2-$3**2)
+gnuplot> set xlabel "x"
+gnuplot> set ylabel "x^2-y^2"
+gnuplot> replot
+
+e)
+gnuplot> plot 'data-Q2.dat' u 1:($2**2-$3**2)
+gnuplot> set xlabel "t"
+gnuplot> set ylabel "x^2-y^2"
+gnuplot> replot
+
+
+f)
+gnuplot> set ylabel "1/(x^2-y^2)"
+gnuplot> set xlabel "1/t^2"
+gnuplot> plot 'data-Q2.dat' u (1/$1**2):(1/($2**2-$3**2))
+
+3)
+
+gnuplot> plot 'data-Q3.dat' u 3:(($4)/($1+$2))
+gnuplot> f(x)=a*x+b
+gnuplot> fit f(x) 'data-Q3.dat' u 3: ($4/($1+$2)) via a,b
+
+a               = 3.00233          +/- 0.03636      (1.211%)
+b               = -1.97451         +/- 0.1001       (5.068%)
+
+gnuplot> f(x)=3.00233*x-1.97451
+gnuplot> plot f(x)
+
+4)
+
+a)
+gnuplot> set parametric
+gnuplot> set xlabel "x"
+gnuplot> set ylabel"y"
+gnuplot> x(t)=(1-2*t*t)/(1+4*t*t);y(t)=5*t/(1+3*t*t)
+gnuplot> plot [-15:15] x(t),y(t)
+
+b)
+gnuplot> set parametric
+gnuplot> x(t)=-3*cos(t)+4*cos(0.75*t);y(t)=-5*sin(t)+7*sin(0.75*t)
+gnuplot> plot [-120:120] x(t),y(t)
+
+gnuplot> set sample 10000
+gnuplot> rep
+
+
+
+
+
+
+
