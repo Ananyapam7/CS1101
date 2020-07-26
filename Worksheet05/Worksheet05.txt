@@ -1,0 +1,73 @@
+1)
+x=range(0,8)
+y=range(2,11)
+>>> print list (reversed (x))
+[7, 6, 5, 4, 3, 2, 1, 0]
+>>> print x[: :-1]
+[7, 6, 5, 4, 3, 2, 1, 0]
+>>> print x[: :2]
+[0, 2, 4, 6]
+>>> print x[1: :2]
+[1, 3, 5, 7]
+>>> x[5]==y[3]
+True
+>>> 9 in x
+False
+>>> 5 in y
+True
+>>> x+y
+[0, 1, 2, 3, 4, 5, 6, 7, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+>>> 
+
+2)
+>>> x="Jack and Jill went up the hill"
+>>> "up" in x
+True
+>>> "down" in x
+False
+>>> print x[: :-1]
+llih eht pu tnew lliJ dna kcaJ
+>>> print x[: :2]
+Jc n ilwn ptehl
+>>> print x[: :5]
+Jailep 
+>>> len(x)
+30
+>>> print x[30:1:-2]
+li h ute lJdak
+>>> y=x[0:3]
+>>> print y
+Jac
+>>> z=x[26:30]
+>>> print z
+hill
+>>> y+z
+'Jachill' 
+>>> y*10
+'JacJacJacJacJacJacJacJacJacJac'
+
+3)
+>>> x=2.2
+>>> y=16
+>>> z=25
+>>> x/y
+0.1375
+>>> y/z
+0
+>>> z/x
+11.363636363636363
+NO. y/z is not in float.
+>>> float(y)/z
+0.64
+>>> 7==7.0
+True
+>>> print 2**9
+512
+>>> print 2.0**3
+8.0
+>>> print y+z
+41
+>>> print str(y)+str(z)
+1625
+
+
