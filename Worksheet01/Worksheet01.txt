@@ -1,0 +1,40 @@
+Q.1
+i)ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01 mkdir -p iiser/PQR/QWE/RST
+ii)ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01 mkdir -p iiser/pqr/qwe/rst
+
+Q.2
+Absolute path-ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/PQR$
+i)ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/PQR
+ii)ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/pqr/qwe/rst$ cd ../../../PQR/QWE/RST
+
+Q.3
+
+ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/PQR/QWE$ 
+ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/PQR/QWE$ pwd
+/MS/ad18ms075/Worksheet01/iiser/PQR/QWE
+
+ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/PQR/QWE$ cd ../../pqr/qwe/rst
+ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/pqr/qwe/rst$ pwd
+/MS/ad18ms075/Worksheet01/iiser/pqr/qwe/rst
+
+
+Q.4
+
+i)ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/pqr/qwe/rst$ touch cd ../../F01.txt
+ii)ls ../../.
+iii)ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/pqr/qwe/rst$ cp ../../F01.txt ~/Worksheet01
+
+
+
+Q.5
+
+  ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/pqr/qwe/rst$ cd ../../../PQR/QWE/RST
+  ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/PQR/QWE/RST$ 
+  pwd command will be used to find complete address of the present directory.
+ 
+Q.6
+
+ad18ms075@iiserk34-OptiPlex-3046:~/Worksheet01/iiser/PQR/QWE/RST$ mv ../../../pqr/qwe ../../.
+
+
+  
