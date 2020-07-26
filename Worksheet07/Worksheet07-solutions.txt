@@ -1,0 +1,26 @@
+1)
+ad18ms075@iiserk66-OptiPlex-9020:~/Worksheet07$ python prob-1.py
+n = 3
+The caluclated  square total is 14
+The caluclated  cube total is 36
+The expected square total is 14
+The expected cube total is 36
+
+2)
+ad18ms075@iiserk66-OptiPlex-9020:~/Worksheet07$ python prob-2.py
+n= 3
+14 36
+
+3) python prob-3.py
+n = 3
+[1, 0, 3]
+
+4)ad18ms075@iiserk66-OptiPlex-9020:~/Worksheet07$ python prob-04.py
+n = 4
+[1, 5, 14, 30]
+
+
+5)ad18ms075@iiserk66-OptiPlex-9020:~/Worksheet07$ python prob-5.py
+n = 6
+The  total is 3.12903225806
+
